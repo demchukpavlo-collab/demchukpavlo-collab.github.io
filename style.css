@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background: #fff;
+    color: #111;
+}
+h1, h2, footer {
+    text-align: center;
+}
+section p {
+    text-align: center;
+    line-height: 1.5;
+}
+.headername {
+    text-align: center;
+    font-size: 26px;
+    color: rgb(3, 3, 3);
+}
+.gametitle {
+    text-align: center;
+}
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgb(46, 196, 166);
+}
+.nav-links a:hover {
+    color: black;
+}
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+.game-card {
+    width: 180px;
+    text-align: center;
+}
+.game-cover {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+.wt .game-cover  { background: linear-gradient(135deg, #4b5320, #b8860b); }
+.wwz .game-cover { background: linear-gradient(135deg, #5a0000, #1a1a1a); }
+.sm2 .game-cover { background: linear-gradient(135deg, #0d2a6b, #c9a227); }
