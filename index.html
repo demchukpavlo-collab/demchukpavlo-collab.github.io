@@ -3,54 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Павло Демчук — про себе</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Павло Демчук</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #fafafa;
+            color: #222;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 16px;
+            line-height: 1.5;
+        }
+        h1, header h3, footer { text-align: center; }
+        h1 { font-size: 40px; }
+        header h3 { font-size: 26px; color: #000; }
+        h2 { color: #2ec4a6; }
+        .nav-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            list-style: none;
+            padding: 0;
+        }
+        .nav-links a {
+            color: #2ec4a6;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .nav-links a:hover { color: #000; }
+        hr { border: none; border-top: 1px solid #999; margin: 20px 0; }
+        .tags { display: flex; flex-wrap: wrap; gap: 10px; }
+        .tags span {
+            border: 1px solid #2ec4a6;
+            border-radius: 20px;
+            padding: 6px 14px;
+        }
+        footer { color: #777; }
+    </style>
 </head>
 <body>
     <header>
         <h1>Павло Демчук</h1>
-        <nav>
-            <h3 class="headername">Натисніть на посилання нижче</h3>
-            <ul class="nav-links">
-                <li><a href="#about-me">Про мене</a></li>
-                <li><a href="#study">Навчання</a></li>
-                <li><a href="#games">Ігри</a></li>
-                <li><a href="https://github.com/demchukpavlo-collab">GitHub</a></li>
-            </ul>
-        </nav>
+        <h3>Розділи сторінки</h3>
+        <ul class="nav-links">
+            <li><a href="#about">Про мене</a></li>
+            <li><a href="#study">Навчання</a></li>
+            <li><a href="#games">Ігри</a></li>
+            <li><a href="https://github.com/demchukpavlo-collab">GitHub</a></li>
+        </ul>
     </header>
     <hr>
-    <main>
-        <section id="about-me">
-            <h2>Про мене</h2>
-            <p>Привіт! Мене звати Павло, я студент Чернівецького національного університету імені Юрія Федьковича (ЧНУ).</p>
-            <p>Цікавлюся програмуванням, комп'ютерними технологіями та відеоіграми.</p>
-        </section>
-        <hr>
-        <section id="study">
-            <h2>Навчання</h2>
-            <p><b>Університет:</b> Чернівецький національний університет імені Юрія Федьковича</p>
-            <p><b>Спеціальність:</b> Комп'ютерні науки</p>
-            <p><b>Освітня програма:</b> Алгоритмічне і програмне забезпечення комп'ютерних систем</p>
-        </section>
-        <hr>
-        <h2 class="gametitle" id="games">Мої улюблені ігри</h2>
-        <section class="games">
-            <div class="game-card wt">
-                <div class="game-cover">WT</div>
-                <p>War Thunder</p>
-            </div>
-            <div class="game-card wwz">
-                <div class="game-cover">WWZ</div>
-                <p>World War Z</p>
-            </div>
-            <div class="game-card sm2">
-                <div class="game-cover">SM2</div>
-                <p>Warhammer 40,000: Space Marine 2</p>
-            </div>
-        </section>
-    </main>
+
+    <section id="about">
+        <h2>Про мене</h2>
+        <p>Привіт! Мене звати Павло, я студент ЧНУ.</p>
+        <p>Цікавлюся програмуванням і хочу стати хорошим розробником.</p>
+    </section>
     <hr>
+
+    <section id="study">
+        <h2>Навчання</h2>
+        <p><b>Університет:</b> ЧНУ</p>
+        <p><b>Спеціальність:</b> Комп’ютерні науки</p>
+        <p><b>Освітня програма:</b> Алгоритмічне і програмне забезпечення комп’ютерних систем</p>
+    </section>
+    <hr>
+
+    <section id="games">
+        <h2>Ігри</h2>
+        <p>У вільний час граю в ігри:</p>
+        <div class="tags">
+            <span>War Thunder</span>
+            <span>World War Z</span>
+            <span>Warhammer 40,000: Space Marine 2</span>
+        </div>
+    </section>
+    <hr>
+
     <footer>
         <p>© 2026 Павло Демчук. Усі права захищено.</p>
     </footer>
