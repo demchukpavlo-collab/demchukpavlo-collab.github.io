@@ -1,3 +1,3 @@
-# Homework_1
+# demchukpavlo-collab.github.io
 
-Сторінка «Про мене»: https://demchukpavlo-collab.github.io/Homework_1/
+Сторінка «Про мене»: https://demchukpavlo-collab.github.io/
